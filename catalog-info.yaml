@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test8"
+  annotations:
+    "humanitec.com/orgId": "infosys-ltd"
+    "humanitec.com/appId": "test8"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
